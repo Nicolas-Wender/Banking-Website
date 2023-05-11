@@ -39,7 +39,7 @@ const features = [
 
 export default function Section_feature_blocks_A() {
   return (
-    <div className="relative isolate pt-60  lg:px-8">
+    <div className="relative isolate mt-52 lg:px-8">
       <div className="mx-auto flex align items-center  max-w-7xl justify-between px-6  gap-x-20">
         <div className="text-center max-w-xl md:text-left">
           <h1 className="mb-12 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl md:text-8xl">
@@ -48,7 +48,7 @@ export default function Section_feature_blocks_A() {
           <div className="my-6 grid gap-10 
           grid-rows-6 sm:grid-cols-2 sm:grid-rows-3 max-[320px]:px-8 max-[425px]:px-16 md:max-w-lg">
             {features.map(feature => (
-              <div className="border-solid border-4 border-gray-200 rounded-xl p-5 flex flex-col justify-center items-center md:items-start">
+              <div className="border-solid border-2 border-gray-200 rounded-xl p-5 flex flex-col justify-center items-center md:items-start">
                 <img
                   className="w-10"
                   src={feature.icone}

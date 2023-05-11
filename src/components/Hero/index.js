@@ -19,7 +19,7 @@ export default function Hero() {
                   {' '}
                   <img
                     className="w-auto"
-                    src="/images/check.svg"
+                    src="/images/check_gray.svg"
                     alt="banquee logo"
                   />
                 </span>
@@ -32,7 +32,7 @@ export default function Hero() {
                   {' '}
                   <img
                     className="w-auto"
-                    src="/images/check.svg"
+                    src="/images/check_gray.svg"
                     alt="banquee logo"
                   />
                 </span>
@@ -45,7 +45,7 @@ export default function Hero() {
                   {' '}
                   <img
                     className="w-auto"
-                    src="/images/check.svg"
+                    src="/images/check_gray.svg"
                     alt="banquee logo"
                   />
                 </span>
@@ -58,7 +58,7 @@ export default function Hero() {
                   {' '}
                   <img
                     className="w-auto"
-                    src="/images/check.svg"
+                    src="/images/check_gray.svg"
                     alt="banquee logo"
                   />
                 </span>
