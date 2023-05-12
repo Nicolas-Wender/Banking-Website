@@ -33,8 +33,8 @@ const features = [
 
 export default function Section_feature_blocks_B() {
   return (
-    <div className="mt-36 relative isolate lg:px-8 w-full overflow-hidden">
-      <div className="mx-auto flex flex-col align items-center md:items-start  max-w-7xl justify-between px-6 pt-16 gap-x-20 ">
+    <div className="mt-20 md:mt-36 relative isolate lg:px-8 w-full overflow-hidden">
+      <div className="mx-auto flex flex-col align items-center md:items-start  max-w-7xl justify-center px-6 pt-16 gap-x-20 ">
         <div className="text-center max-w-xl md:text-left">
           <span className="my-6 sm:text-xl text-center md:text-left  leading-7 ">
             Saving Accounts
@@ -43,7 +43,8 @@ export default function Section_feature_blocks_B() {
             Organize your money the right way
           </h1>
         </div>
-        <div className="w-full my-6 flex justify-between items-center">
+
+        <div className="w-full my-6 flex flex-col md:flex-row flex-wrap-reverse justify-between items-center">
           <p className="max-w-xl flex justify-between sm:text-xl text-center md:text-left leading-7">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -60,13 +61,13 @@ export default function Section_feature_blocks_B() {
           </a>
         </div>
 
-        <div className="my-6 flex justify-between flex-wrap gap-x-10 max-[320px]:px-8 max-[425px]:px-16 md:w-full">
+        <div className="my-6 flex flex-wrap gap-x-10 max-[320px]:px-8 max-[425px]:px-16 md:w-full">
           {features.map(feature => (
-            <div>
+            <div className="mb-12">
               <div
                 key={feature.title}
                 className={
-                  'bg- rounded-xl shadow-md w-52 h-52 flex flex-col justify-center items-center md:items-start ' +
+                  'rounded-xl shadow-md w-52 h-52 flex flex-col justify-center items-center md:items-start ' +
                   feature.bg
                 }
               >
