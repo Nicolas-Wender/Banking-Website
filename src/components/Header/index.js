@@ -130,7 +130,7 @@ export default function Header() {
                   {blog.map(item => (
                     <a
                       href="/"
-                      key={item.name}
+                      key={item}
                       className="relative flex items-center rounded-lg p-4 py-2 text-sm leading-6 hover:bg-gray-50 hover:"
                     >
                       <div>{item}</div>
@@ -160,7 +160,7 @@ export default function Header() {
           </a>
           <a
             href="/"
-            class="rounded-lg text-center bg-emerald-500 w-32 px-3 py-2.5 text-base font-semibold text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-emerald-700 "
+            className="rounded-lg text-center bg-emerald-500 w-32 px-3 py-2.5 text-base font-semibold text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-emerald-700 "
           >
             Open Account
           </a>
@@ -229,12 +229,13 @@ export default function Header() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
                         {blog.map(item => (
-                          <div
-                            key={item}
+                          <a
+                            href="/"
+                            key= {item}
                             className="relative flex items-center rounded-lg p-4 py-2 text-sm leading-6 hover:bg-gray-50 hover:"
                           >
                             <div>{item}</div>
-                          </div>
+                          </a>
                         ))}
                         <a
                           href="/"
@@ -259,7 +260,7 @@ export default function Header() {
                 </a>
                 <a
                   href="/"
-                  class="rounded-lg text-center bg-emerald-500 w-32 px-3 py-2.5 text-base font-semibold text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-emerald-700 "
+                  className="rounded-lg text-center bg-emerald-500 w-32 px-3 py-2.5 text-base font-semibold text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-emerald-700 "
                 >
                   Open Account
                 </a>

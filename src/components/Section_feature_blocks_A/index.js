@@ -45,10 +45,11 @@ export default function Section_feature_blocks_A() {
           <h1 className="mb-12 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl md:text-8xl">
             One app. One banking.
           </h1>
+
           <div className="my-6 grid gap-10 
           grid-rows-6 sm:grid-cols-2 sm:grid-rows-3 max-[320px]:px-8 max-[425px]:px-16 md:max-w-lg">
             {features.map(feature => (
-              <div className="border-solid border-2 border-gray-200 rounded-xl p-5 flex flex-col justify-center items-center md:items-start">
+              <div key={feature.title} className="border-solid border-2 border-gray-200 rounded-xl p-5 flex flex-col justify-center items-center md:items-start">
                 <img
                   className="w-10"
                   src={feature.icone}
@@ -61,7 +62,7 @@ export default function Section_feature_blocks_A() {
           </div>
         </div>
 
-        <div className=" mx-auto hidden max-w-xs lg:block">
+        <div className="mx-auto hidden max-w-xs lg:block">
           <img
             className="w-full h-full"
             src="/images/app_image/app.svg"
