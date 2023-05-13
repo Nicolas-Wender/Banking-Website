@@ -1,4 +1,4 @@
-export default function Section_feature_specifc_A() {
+export default function SectionFeatureSpecifcA() {
   return (
     <div className="mt-24 md:mt-36 relative isolate lg:px-8 w-full bg-green-50 overflow-hidden h-[30rem] md:h-[37rem]">
       <div className="mx-auto flex align items-center  max-w-7xl justify-between px-6 pt-16 gap-x-20 ">

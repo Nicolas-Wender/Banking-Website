@@ -1,19 +1,22 @@
-export default function Section_feature_specifc_B() {
+export default function SectionFeatureSpecifcB() {
   return (
     <div className="mt-20 relative isolate lg:px-8 w-full h-[30rem] md:h-[37rem]">
-      <div className="mx-auto flex align items-center  max-w-7xl justify-between px-6 pt-16 gap-x-20 ">
+      <div className="mx-auto flex align max-w-7xl justify-between px-6 pt-16 gap-x-20 ">
         <div className="text-center max-w-xl md:text-left">
+        <span className="my-6 sm:text-xl text-center md:text-left  leading-7 font-semibold">
+            Notifications
+          </span>
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl md:text-7xl">
             Banking starts here.
           </h1>
-          <p className="my-6 sm:text-xl text-center md:text-left  leading- ">
+          <p className="my-6 sm:text-xl text-center md:text-left  leading-7 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore.
           </p>
 
           <ul className="grid grid-cols-1 grid-rows-4 min-[450px]:justify-items-center md:justify-items-start ">
             <li className="p-3">
-              <p className="flex gap-3 align-items">
+              <p className="flex gap-3 align-items text-xl">
                 <span>
                   {' '}
                   <img
@@ -26,7 +29,7 @@ export default function Section_feature_specifc_B() {
               </p>
             </li>
             <li className="p-3">
-              <p className="flex gap-3 align-items">
+              <p className="flex gap-3 align-items text-xl">
                 <span>
                   {' '}
                   <img
@@ -39,7 +42,7 @@ export default function Section_feature_specifc_B() {
               </p>
             </li>
             <li className="p-3">
-              <p className="flex gap-3 align-items">
+              <p className="flex gap-3 align-items text-xl">
                 <span>
                   {' '}
                   <img
@@ -55,7 +58,7 @@ export default function Section_feature_specifc_B() {
 
           <a
             href="/"
-            className="relative items-center gap-2 rounded-lg px-3.5 py-2.5 text-sm font-semibold leading-6 text-emerald-500 hover:bg-gray-50
+            className="relative items-center gap-2 rounded-lg px-3.5 py-2.5 text-xl font-semibold leading-6 text-emerald-500 hover:bg-gray-50
               focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-50"
           >
             Compare Cards

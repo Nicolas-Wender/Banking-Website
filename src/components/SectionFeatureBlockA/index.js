@@ -37,7 +37,7 @@ const features = [
   }
 ]
 
-export default function Section_feature_blocks_A() {
+export default function SectionFeatureBlockA() {
   return (
     <div className="relative isolate mt-28 md:mt-52 lg:px-8">
       <div className="mx-auto flex align items-center  max-w-7xl justify-between px-6  gap-x-20">
