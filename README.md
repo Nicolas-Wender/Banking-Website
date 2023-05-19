@@ -1,4 +1,3 @@
 # Criando um website de um banco fictício com React
 
-Esse é um projeto pessoal, feito com react, aonde coloco em pratica algumas tecnologias como o react-router-dom, e context-api
-
+Projeto pessoal, simulando o website de um banco digital, feito com react, tailwind, e react router dom
