@@ -5,6 +5,10 @@ import SectionFeatureSpecifcA from '../../components/SectionFeatureSpecifcA'
 import SectionFeatureBlocksB from '../../components/SectionFeatureBlocksB'
 import SectionFeatureSpecifcB from '../../components/SectionFeatureSpecifcB'
 import SectionCTA from '../../components/SectionCTA'
+import SectionTestemonials from '../../components/SectionTestemonials'
+import SectionDowloadApp from '../../components/SectionDowloadApp'
+
+
 
 export default function Inicio() {
   return (
@@ -16,6 +20,9 @@ export default function Inicio() {
       <SectionFeatureBlocksB />
       <SectionFeatureSpecifcB />
       <SectionCTA />
+      <SectionTestemonials/>
+      <SectionDowloadApp/>
+      <SectionFeatureSpecifcA />
     </>
   )
 }

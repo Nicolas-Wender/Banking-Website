@@ -1,6 +1,6 @@
 export default function SectionFeatureSpecifcB() {
   return (
-    <div className="mt-20 relative isolate lg:px-8 w-full h-[30rem] md:h-[37rem]">
+    <div className="md:mt-20 relative isolate lg:px-8 w-full h-[30rem] md:h-[37rem]">
       <div className="mx-auto flex align max-w-7xl justify-between px-6 pt-16 gap-x-20 ">
         <div className="text-center max-w-xl md:text-left">
         <span className="my-6 sm:text-xl text-center md:text-left  leading-7 font-semibold">

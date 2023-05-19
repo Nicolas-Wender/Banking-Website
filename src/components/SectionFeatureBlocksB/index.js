@@ -63,7 +63,7 @@ export default function SectionFeatureBlocksB() {
 
         <div className="my-6 flex flex-wrap gap-x-10 max-[320px]:px-8 max-[425px]:px-16 md:w-full">
           {features.map(feature => (
-            <div className="mb-12">
+            <div className="hidden md:block mb-12">
               <div
                 key={feature.title}
                 className={
@@ -80,8 +80,6 @@ export default function SectionFeatureBlocksB() {
               <h2 className="font-medium text-xl mt-5">{feature.title}</h2>
               <p className="font-medium text-base">{feature.price}</p>
             </div>
-
-            
           ))}
         </div>
       </div>
